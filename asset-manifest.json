@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/kakao-clone/static/js/main.602e35cd.js",
+    "static/js/496.4a6ce1c2.chunk.js": "/kakao-clone/static/js/496.4a6ce1c2.chunk.js",
+    "index.html": "/kakao-clone/index.html",
+    "main.602e35cd.js.map": "/kakao-clone/static/js/main.602e35cd.js.map",
+    "496.4a6ce1c2.chunk.js.map": "/kakao-clone/static/js/496.4a6ce1c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.602e35cd.js"
+  ]
+}
