@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { AiFillAlert } from "react-icons/ai";
+import Header from "./components/Header";
 
 const Wrapper = styled.div`
   width: 100%;
@@ -19,7 +19,7 @@ function App() {
   return (
     <Wrapper>
       <ContentsWrapper>
-        <AiFillAlert />
+        <Header />
       </ContentsWrapper>
     </Wrapper>
   );
