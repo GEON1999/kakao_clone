@@ -21,17 +21,15 @@ const ContentsWrapper = styled.div`
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Wrapper>
-        <ContentsWrapper>
-          <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="chat" element={<Chat />} />
-          </Routes>
-        </ContentsWrapper>
-      </Wrapper>
-    </BrowserRouter>
+    <Wrapper>
+      <ContentsWrapper>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="chat" element={<Chat />} />
+        </Routes>
+      </ContentsWrapper>
+    </Wrapper>
   );
 }
 
