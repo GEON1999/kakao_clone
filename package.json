@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && shx cp build/index.html build/404.html",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
@@ -43,5 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://geon1999.github.io/kakao-clone"
+  "homepage": "https://geon1999.github.io/kakao_clone"
 }
